@@ -13,7 +13,6 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Image className={styles.logo} src="pizza_queen.png"/>
         <h1 className={styles.title}>
           Welcome to SCRATCH CHAT
         </h1>
