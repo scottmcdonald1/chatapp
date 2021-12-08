@@ -1,34 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Chat App]
 
-## Getting Started
+## The Goal
 
-First, run the development server:
+The overall goal was to 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A live demo of the project can be found [here] ()
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## User Stories
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+The initial concept for the app came from a coding challenge via the [devjam](https://devjam.vercel.app/project/Chat-App-9) group.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Dev Jam User Stories
 
-## Learn More
+User Stories
 
-To learn more about Next.js, take a look at the following resources:
+ 1. ✅ User is prompted to enter a username when he visits the chat app. The username will be stored in the application
+ 2. ✅ User can see an input field where he can type a new message
+ 3. ✅ By pressing the enter key or by clicking on the send button the text will be displayed in the chat box alongside his username (e.g. John Doe: Hello World!)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Bonus features (optional)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+ 1. The messages will be visible to all the Users that are in the chat app (using WebSockets)
+ 2. When a new User joins the chat, a message is displayed to all the existing Users
+ Messages are saved in a database
+ 3. User can send images, videos and links which will be displayed properly
+ 4. User can select and send an emoji
+ 5. Users can chat in private
+ 6. Users can join channels on specific topics
 
-## Deploy on Vercel
+ ## Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+ I am using these challenges to learn/get more familiar with React and this project was built with Next.js
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ ### What I've learned
+
+ 1. more practice with hooks, which are still pretty foreign to me though this helped, specifically useState.
+ 2. Router and useRouter, which I used to pass in the username via a path variable -- this was the biggest and most rewarding hurdle I overcame.
+
+ ### What's next
+
+ I would say the next big thing to tackle, related to this project, would be websockets as I have very little experience with them if any at all.

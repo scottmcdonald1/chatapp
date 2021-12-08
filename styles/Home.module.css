@@ -83,12 +83,16 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
+  /* color: #0070f3; */
   border-color: #0070f3;
 }
 
@@ -104,8 +108,9 @@
 }
 
 .logo {
-  height: 1em;
-  margin-left: 0.5rem;
+  height: 15em;
+  margin: 0.5rem;
+  filter: drop-shadow(5px 5px 10px black);
 }
 
 @media (max-width: 600px) {
