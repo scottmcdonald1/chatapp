@@ -6,7 +6,7 @@ The overall goal was to
 
 ## Live Demo
 
-A live demo of the project can be found [here] ()
+A live demo of the project can be found [here](https://chatapp-rosy.vercel.app/)
 
 ## User Stories
 
