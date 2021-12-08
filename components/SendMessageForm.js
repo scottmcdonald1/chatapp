@@ -3,16 +3,16 @@ import React, { useState } from "react";
 
 export default function SendMessageForm(props) {
 
-    const [message, useMessage] = useState('');
+    const [message, setMessage] = useState('');
 
     const handleChange = (e) => {
-        useMessage(e.target.value);
+        setMessage(e.target.value);
     }
 
     const handleSubmit = (e) => {
         e.preventDefault();
         props.sendMessage(message);
-        useMessage('');
+        setMessage('');
     }
 
     return (

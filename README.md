@@ -41,4 +41,4 @@ Bonus features (optional)
 
  ### What's next
 
- I would say the next big thing to tackle, related to this project, would be websockets as I have very little experience with them if any at all.
+ I would say the next big thing to tackle, related to this project, would be websockets as I have very little experience with them if any at all. User authentication would also be up there. 

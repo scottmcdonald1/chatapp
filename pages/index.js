@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { SignUp } from './login'
+import Image from 'next/image'
+import { SignUp } from '../components/login'
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <img className={styles.logo} src="pizza_queen.png"/>
+        <Image className={styles.logo} src="pizza_queen.png"/>
         <h1 className={styles.title}>
           Welcome to SCRATCH CHAT
         </h1>
