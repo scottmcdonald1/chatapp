@@ -2,11 +2,11 @@
 
 ## The Goal
 
-The overall goal was to 
+The overall goal was to satisfy the required user stories for a coding challenge through the devjam discord group.
 
 ## Live Demo
 
-A live demo of the project can be found [here](https://chatapp-rosy.vercel.app/)
+A live demo of the project can be found [here] ()
 
 ## User Stories
 
@@ -41,4 +41,7 @@ Bonus features (optional)
 
  ### What's next
 
- I would say the next big thing to tackle, related to this project, would be websockets as I have very little experience with them if any at all. User authentication would also be up there. 
+ 1. Explore WebSockets -- I have very little experience with them and would like to learn more.
+ 2. Connect to database -- build out Users and authentication
+ 3. Create multiple chatrooms -- create landing page for each user to view open/saved chatroom with unique room IDs.
+
