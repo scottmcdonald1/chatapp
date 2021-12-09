@@ -6,7 +6,7 @@ The overall goal was to satisfy the required user stories for a coding challenge
 
 ## Live Demo
 
-A live demo of the project can be found [here] ()
+A live demo of the project can be found [here](https://chatapp-rosy.vercel.app/)
 
 ## User Stories
 
