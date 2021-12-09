@@ -28,10 +28,10 @@ export function SignUp() {
             onSubmit={handleSubmit}>
             <label className={styles.formItem}>PLEASE ENTER YOUR NAME</label>
             <input 
-                onChange={handleChange}
-                className={styles.formItem} 
-                value={username} 
-                type="text">
+            onChange={handleChange}
+            className={styles.formItem} 
+            value={username} 
+            type="text">
             </input>
             
             <button 

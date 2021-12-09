@@ -22,10 +22,10 @@ a {
 
 
 :root {
-  --main-color: #5ea3d0;
+  /* --main-color: #5ea3d0; */
   --main-color: rgba(66,143,112,1);
   --secondary-color: white;
-  --main-text-color: #3e5869;
+  /* --main-text-color: #3e5869; */
   --main-text-color: rgba(64,60,58,1);
   --secondary-text-color: #b0c7d6;
   --send-message-form: #F5F5F5;
@@ -35,7 +35,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: system-ui;
+  font-family: Bebas Neue;
   font-weight: 200;
   color: #3e5869; 
 }
@@ -46,6 +46,7 @@ html, body {
 
 .app {
   height: calc(100% - 100px); 
+  /* padding: 0 4rem; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -62,7 +63,7 @@ html, body {
   background: var(--main-color);
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: 25px 0;
   text-align: center;
 }
 
@@ -76,6 +77,7 @@ html, body {
   color: var(--main-text-color);
   opacity: 0.9;
   margin-bottom: 6px;
+  font-family: Montserrat;
 }
 .message div:nth-child(2) {
   background: var(--main-color);
@@ -85,6 +87,7 @@ html, body {
   border: 1px solid var(--secondary-color);
   border-radius: 8px;
   box-shadow: -5px 8px 0px rgba(64,60,58,0.2);
+  font-family: Abel;
 }
 .user-message  div:nth-child(1){
   font-size: 11px;
@@ -92,6 +95,7 @@ html, body {
   opacity: 0.9;
   margin-bottom: 6px;
   text-align: right;
+  font-family: Montserrat;
 } 
 .user-message div:nth-child(2) {
   background: var(--secondary-color);
@@ -103,17 +107,8 @@ html, body {
   border: 1px solid var(--main-color);
   border-radius: 8px;
   box-shadow: -5px 8px 0px rgba(64,60,58,0.2);
+  font-family: Abel;
 }
-/* 
-.message-list {
-  box-sizing: border-box;
-  padding: 0 0 0 6px;
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  overflow: scroll;
-  background: white;
-} */
 
 .message-list {
   box-sizing: border-box;
@@ -137,9 +132,9 @@ html, body {
   box-sizing: border-box;
   width: 100%;
   height: 60px;
-  margin: 10px;
+  margin: 10px 0;
   bottom: 0;
-  border: 2px solid var(--main-color);
+  border: 1px solid var(--main-color);
   border-radius: 8px;
 }
 
@@ -166,7 +161,30 @@ html, body {
   width: 80vw;
   margin: 10px 0;
   padding: 0px 20px;
-  border: 5px solid var(--main-color);
+  border: 1px solid var(--main-color);
   border-radius: 8px;
   /* box-shadow: 0px 0px 80px var(--main-color); */
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  margin-top: 20px;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+  color: rgba(66,143,112,1);
+}
+
+.main {
+  min-height: 100vh;
+  width: 100%;
+  padding: 0 0 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
